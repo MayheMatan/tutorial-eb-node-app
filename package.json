@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "migrate:latest": "knex migrate:latest",
-    "start": "npm run migrate:latest && node index.js"
+    "start": "node index.js"
   },
   "author": "",
   "license": "MIT",
