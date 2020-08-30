@@ -23,6 +23,6 @@ app.post('/login', (req, res) => {
       else res.sendStatus(401)
     })
 })
-app.listen(8081, () => {
+app.listen(process.env.PORT || 80801, () => {
   console.log('Server running on http://localhost:8081')
 })
